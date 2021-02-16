@@ -205,7 +205,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2.4rem;
+  padding: 9rem 2.4rem 2.4rem 2.4rem;
   height: 100vh;
 }
 
