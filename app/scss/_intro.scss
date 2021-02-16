@@ -1,0 +1,36 @@
+.intro {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 1.4rem;
+}
+
+.intro h1 {
+  padding: 0 4rem 2.4rem 4rem;
+}
+
+.intro p {
+  color: var(--color-neutral-1);
+  font-weight: 500;
+  line-height: 2.5rem;
+  font-size: 1.4rem;
+  justify-items: left;
+}
+
+@media screen and (min-width: 768px) {
+  .intro h1 {
+    text-align: left;
+    font-size: 4.5rem;
+    padding: 0 0 2.4rem 0;
+    width: 42.5rem;
+  }
+
+  .intro p {
+    text-align: left;
+    width: 42.5rem;
+  }
+
+  .main-header {
+    max-width: 1110px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,40 @@
+:root {
+  --color-primary: #502050;
+  --color-secondary: #ee68a4;
+  --color-neutral-1: #937b92;
+  --color-neutral-2: #f7f2f7;
+  --color-neutral-3: #ffffff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Spartan", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-neutral-2);
+}
+
+a {
+  text-decoration: none;
+}
